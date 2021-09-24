@@ -89,7 +89,7 @@ public class Lesson_2_DZ {
                 temp += arr[j]; //подсчет суммы от sumLeft до конца массива
                 sumRight = temp;
             }
-            if (sumLeft == sumRight)// если баланс найден, выходим из цикла, радуемся, идем искать вакансии на hh.ru
+            if (sumLeft == sumRight)
                 break;
         }
         return sumLeft == sumRight;
